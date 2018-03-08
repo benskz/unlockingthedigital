@@ -1,0 +1,14 @@
+{
+  "name": "unlockingthedigital",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:benskz/unlockingthedigital.git",
+    "type": "git"
+  },
+  "author": "benskz <bernardo@unlockingthedigital.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo 'No tests.'"
+  }
+}

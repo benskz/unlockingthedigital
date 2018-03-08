@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/bernardo/.nvm/versions/node/v9.8.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/bernardo/.nvm/versions/node/v9.8.0/bin:/Users/bernardo/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.16.1
+
+Node version: 
+  9.8.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "unlockingthedigital",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": {
+      "url": "git@github.com:benskz/unlockingthedigital.git",
+      "type": "git"
+    },
+    "author": "benskz <bernardo@unlockingthedigital.com>",
+    "license": "MIT"
+    "scripts": {
+      "test": "echo 'No tests.'"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+bower manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/bernardo/Projects/unlockingthedigital/package.json: Unexpected string in JSON at position 258
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/util/fs.js:271:57
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+      at /usr/local/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:13
+      at <anonymous>
